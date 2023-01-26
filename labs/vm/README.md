@@ -22,17 +22,15 @@ semester.
 We provide directions for two major cloud providers: GCP (Google's
 cloud) and Azure (Microsoft's cloud).  If you want to find another
 way/place to use Ubuntu 22.04 LTS and install Jupyter, that's fine
-too, and you can skip this lab (though we will only support the first
-two options during office hours).
+too. But we will only support the first
+two options during office hours. Even if you are planning to use
+your own Ubuntu machine, we recommend you to set up the virtual machine.
 
-Choose one of the following for the remainder of this lab:
+Follow the [GCP Directions](gcp/README.md) for the rest of this lab to set up your
+virtual machine. Google gave me educational
+credits ($50/student) to use for CS 320, which should cover you. 
 
-1. [GCP Directions](gcp/README.md).  Google gave me educational
-credits ($50/student) to use for CS 320, which should cover you.  This
-is the preferred option.
-
-2. [Azure Directions](azure/README.md).  At the time these directions
+Backup option (future directions if you even run out of GCP credits - not needed for now): 
+[Azure Directions](azure/README.md).  At the time these directions
 were written, Microsoft offers students $100/year of credit per year.
-You can use this if there is an issue with option 1 (or you somehow
-run out of the $50 of credits before the end of the year).  These
-directions might be a bit stale.
+These directions might be a bit stale.
