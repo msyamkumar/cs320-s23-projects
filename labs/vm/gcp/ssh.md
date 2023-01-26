@@ -1,8 +1,8 @@
 # SSH
 
-1. In the cloud console, find "Compute Engine" under "COMPUTE", and click "Metadata" (it's roughly in the middle of the "Compute Engine" menu).
+1. In the menu on the left, open the "Compute Engine" menu, and find "Metadata" under "Settings".
 
-<img src="img/13.png" width=600>
+<img src="img/13.png" width=300>
 
 2. Go to "SSH Keys" and click "Add SSH keys".  There will be a box
 where we need to paste a key, which we haven't generated yet.
@@ -31,10 +31,12 @@ highlighted in the following screenshot).(If your using windows, run the command
 <img src="img/16.png" width=600>
 
 5. go back to where you were adding an SSH key in the Google cloud
-console and paste your key (as copied in step 4).  Make a note of the
-username that appears to the left of the box (in this case "trh") --
-you'll need it later.
+console and paste your key (as copied in step 4).  Then click "Save".
 
 <img src="img/17.png" width=600>
 
-6. Then click "Save".
+6. Make a note of the
+username that appears to the left of the box (in this case "msyamkumar") --
+you'll need it later.
+
+<img src="img/30.png" width=700>

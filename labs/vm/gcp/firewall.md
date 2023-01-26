@@ -25,11 +25,11 @@ convenient, and fine for the purposes of this course.
 
 <img src="img/7.png" width=600>
 
-2. In the menu on the left, scroll down to "Networking"; under that, open the "VPC network" menu and select "Firewall"
+2. In the menu on the left, open the "VPC network" menu and select "Firewall". 
 
-<img src="img/Firewall_part2_update.png" width=600>
+<img src="img/Firewall_part2_update.png" width=300>
 
-3. if prompted, enable the "Compute Engine API".  This may take a couple minutes, and you probably need to re-click "Firewall" on the left after it finishes.
+3. After clicking "Firewall", you might recieve the "Data could not be loaded" error, just click "cotinue". Then enable the "Compute Engine API".  This may take a couple minutes, and you probably need to re-click "Firewall" on the left after it finishes.
 
 4. Click the "CREATE FIREWALL RULE" button
 

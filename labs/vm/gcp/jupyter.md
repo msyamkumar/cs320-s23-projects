@@ -26,9 +26,15 @@ a super user".  You're signed in as a regular user, without permission
 to install software by default, so you'll use `sudo` often for
 installing tools and other tasks.
 
+You might be prompted with a "Restarting services" menu after running `sudo apt upgrade`.  If so, enter "9". 
+
+<img src="img/31.png" width=700>
+
 3. Now let's use pip3 to install Jupyter (don't use sudo for this one):
 
-`pip3 install jupyterlab==3.4.5 MarkupSafe==2.0.1`
+```
+pip3 install jupyterlab==3.4.5 MarkupSafe==2.0.1
+```
 
 4. When you start Jupyter notebook remotely, you'll want to set a
 password for connecting to it.  Make it a good one, or anybody will be
@@ -47,7 +53,9 @@ python3 -m jupyterlab password
 
 5. Now let's start Jupyter.  Run the following:
 
-`nohup python3 -m jupyterlab --no-browser --ip=0.0.0.0 --port=2020 &`
+```
+nohup python3 -m jupyterlab --no-browser --ip=0.0.0.0 --port=2020 &
+```
 
 You can now close the terminal window.
 
