@@ -1,6 +1,6 @@
 # Connecting via Cloud Console
 
-In the table of VM instances, click the arrow by "SSH" in the row for your virtual machine, and click "Open in browser window"
+In the table of VM instances, click the arrow by "SSH" in the row for your virtual machine, and click "Open in browser window".
 
 <img src="img/23.png" width=600>
 
