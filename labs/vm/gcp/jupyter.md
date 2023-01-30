@@ -75,3 +75,8 @@ suggest you bookmark the login page so you can come back to it later.
 
 Install git by running this command: `sudo apt install git`. You should now be able to
 try out the git commands that were covered as part of "Reproducibility 3" lecture.
+
+# nano
+
+Install nano by running this command: `sudo apt install nano`. You can install other command
+line text editors like `vim` or `emacs` if you would like to learn and use those.
