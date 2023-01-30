@@ -70,3 +70,8 @@ notebook and run code).
 
 Good work on getting Jupyter running on your virtual machine!  We
 suggest you bookmark the login page so you can come back to it later.
+
+# git
+
+Install git by running this command: `sudo apt install git`. You should now be able to
+try out the git commands that were covered as part of "Reproducibility 3" lecture.
