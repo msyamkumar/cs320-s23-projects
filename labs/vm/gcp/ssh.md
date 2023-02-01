@@ -23,6 +23,10 @@ where you run it that will let you connect to your VM without a
 password via SSH this semester.  If you switch computers at some
 point, you'll need to revisit this part of the lab.
 
+Sometimes `ssh-keygen` creates SSH keys which usernames only consist of numbers. 
+This is an invalid SSH key for GCP. You can generate a new SSH key specifiying a 
+username by `ssh-keygen -C [USERNAME]`
+
 <img src="img/15.png" width=600>
 
 4. run `cat ~/.ssh/id_rsa.pub`.  Then copy the output (the part
