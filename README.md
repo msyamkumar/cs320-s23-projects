@@ -4,4 +4,4 @@
 [p1](./p1)
 
 ## Labs 
-[lab 2](./labs/lab2.md)
+- [Lab 2](./labs/lab2.md)
