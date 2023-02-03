@@ -2,7 +2,7 @@
 
 ## Corrections/Clarifications
 
-* none yet 
+* Added sample output from `tester.py` (Meena, Feb 3rd 6:45 AM)
 
 ## Overview
 
