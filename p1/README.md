@@ -2,7 +2,8 @@
 
 ## Corrections/Clarifications
 
-* Added sample output from `tester.py` (Meena, Feb 3rd 6:45 AM)
+* Clarification: Added sample output from `tester.py` (Meena, Feb 3rd 6:45 AM).
+* Clarification: Adding note about `sum` keyword in `smart_count` function description (Meena, Feb 3rd 7:00 AM).
 
 ## Overview
 
@@ -228,6 +229,7 @@ More on `for` loops:
 Write a function called `smart_count` that takes a list of numbers and returns their sum.  It should also have the following features:
 1. ignore numbers greater than 10
 2. if there is a negative number, that number (and all that follow it, positive or negative, should be skipped)
+3. **Note**: if you try to use `sum` as the variable to keep track of the sum, notice how it turns green. Anything that turns green inside notebook file format is a Python keyword, meaning you shouldn't be using that as a variable. Can you think of a better variable name than `sum`? Learn this skill early so that you don't accidentally redefine the meaning of the keywords that already have a different meaning.
 
 Use `continue` to implement feature 1 and `break` to implement feature 2.
 
