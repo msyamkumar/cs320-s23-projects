@@ -129,6 +129,12 @@ Some functions we use a lot in 220/320 are abs, dir, float, input, int, len, lis
 
 In other cases where you want to divide 7 by 2 and get an int, you would use `7 // 2`.
 
+**IMPORTANT**: After solving every question, we recommend running the tester, to confirm whether your code is able to clear the auto-grader tests locally on your VM. For example, after solving q1, if you run the tester, you will see the output will look similar to the below image:
+
+<img src="img/tester.png">
+
+Please keep in mind that even though your code might clear the tester on your local VM, it might fail the tester on the submission portal. It is your responsibility to check that your submission clears auto-grader on the submission portal (course website). You will receive a canvas message when the auto-grader test results are ready - **PLEASE DO NOT IGNORE** THAT and make sure to check your auto-grader test results on time.
+
 ### Q2: what is `error`?
 
 Complete the code in accordance with the comment to calculate the answer.
