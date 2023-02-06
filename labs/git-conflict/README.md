@@ -2,7 +2,7 @@
 
 1. In an SSH session, run `export EDITOR=nano` so that `nano` is your default editor for the following practice.
 
-2. Clone the directory first (run `git clone https://github.com/msyamkumar/cs320-s23-projects.git`). If you have already cloned it, run `git pull` to update the directory.
+2. Clone the directory first (run `git clone https://github.com/msyamkumar/cs320-s23-projects.git`). If you have already cloned it, `cd` into the directory and then run `git pull` to update the directory.
 
 3. Navigate (with `cd`) to `labs/git-conflict` within the semester repo.  Run `unzip repo.zip` to create a `repo` directory, which contains an `adder.py` program. (If you cannot run `unzip` correctly, try to install unzip by running `sudo apt-get install unzip`. Enter "9" for the prompt.)
 

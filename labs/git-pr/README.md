@@ -161,7 +161,7 @@ change to a site (like the one above), the process goes like this:
 4. push those changes to your own fork
 5. make a formal request, called a "pull request", for the person of the original repo to integrate the changes on your fork into their codebase
 
-Let's start.  Go back to the https://github.com/msyamkumar/cs320-lab2-datasets page.  Click code, and copy the HTTPS address.
+Let's start.  Go back to the https://github.com/msyamkumar/cs320-lab2-datasets page.  Click code, and copy the SSH address.
 
 <img src="6.png" width=1000>
 

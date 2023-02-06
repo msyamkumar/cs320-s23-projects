@@ -21,7 +21,7 @@ You might encounter resource crunch problems this semester as you learn to deal 
 - Open `terminal` either via `jupyterlab` session or open SSH session using `terminal` / `powershell`. 
 - If you want to view both command output and your `jupyterlab` session, I would recommend opening an SSH session and splitting your screen between your browser window and the terminal (see the second image in the below write up).
 - Run `htop` on your terminal. The output should look something like this:
-<img src="img/htop.png">
+<img src="img/htop.png" width="700">
 
 - `htop` shows the programs that are using the top of the resources (memory, CPU, etc.,). The "h" letter indicates that the output is in human readable format (that is, it does not display too many large numbers).
 - On your VM, we have two CPUs (marked by 0 and 1 in `htop` output - see above image). They probably might be running on a single physical chip, but they are two CPU cores on the same chip. The bars and the indicate how much each of those CPUs are being used. You will see a low number if you don't have two many processes (running programs) currently executing on your VM. When I took this snapshot, my CPUs were almost idle. 
@@ -32,28 +32,28 @@ You might encounter resource crunch problems this semester as you learn to deal 
 	- Go to your `jupyterlab` session and click on the "stop" sign (see below image):
 	- As you can see, after you open a notebook for running it keeps running in the background even though you close the tab associated with a notebook
 	- Close one of those notebooks and go back and check your memory usage. 
-<img src="img/free_memory_1.png">
+	<img src="img/free_memory_1.png" width="850">
 
 	- Continue closing all of the notebooks. Observe how memory gets freed up as you close the notebooks.
-<img src="img/free_memory_2.png">
-<img src="img/free_memory_3.png">
+	<img src="img/free_memory_2.png" width="850">
+	<img src="img/free_memory_3.png" width="850">
 
 **Note: It is important for you to close / shutdown unused notebooks often, so that your VM doesn't slow down too much!**
 
 ## Running `df` to keep track of storage space
 
 - Run `df` on your terminal. The output should look something like this:
-<img src="img/df_output.png">
+<img src="img/df_output.png" width="500">
 
 - The output shows the details of all storage devices like hard drive. 
 - We are not going to learn details about each listing here. Instead let's focus on the disk usage of the current working directory.
 - Recall that we can use `.` to specify current working directory.
 - Run `df .` on your terminal. The output should look something like this (it might not match exactly):
-<img src="img/df_output_2.png">
+<img src="img/df_output_2.png" width="500">
 
 - Right now, I am using 23% of my storage space. It also displays the size in blocks, which is difficult for us to read. Let's use "-h" option, which will enable us to get human readable output.
 - Run `df . -h` on your terminal. The output should look something like this (it might not match exactly):
-<img src="img/df_output_3.png">
+<img src="img/df_output_3.png" width="500">
 
 - This output is so much better to read. I have a total of 15G storage space, out of which I am currently using 3.2G.
 
