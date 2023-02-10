@@ -2,7 +2,7 @@
 
 ## Projects 
 * [p1](./p1)
-* [p2](./p1)
+* [p2](./p2)
 
 ## Labs 
 * [lab 2](./labs/lab2.md)
