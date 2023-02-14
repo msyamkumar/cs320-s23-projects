@@ -4,7 +4,7 @@
 
 * Clarification: Added grading guidelines (Yiyin, Feb 14th 1:14 PM). 
 * Clarification: Added sample output from `tester.py` (Meena, Feb 3rd 6:45 AM).
-* Clarification: Adding note about `sum` keyword in `smart_count` function description (Meena, Feb 3rd 7:00 AM).
+* Clarification: Added note about `sum` keyword in `smart_count` function description (Meena, Feb 3rd 7:00 AM).
 
 ## Overview
 
