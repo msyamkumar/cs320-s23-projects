@@ -79,7 +79,7 @@ some code, output answer
 
 2. "File" > "Save Notebook"
 
-3. Rrom an SSH session, navigate to the f22/p1 directory
+3. Rrom an SSH session, navigate to the cs320-sp23-projects/p1 directory
 
 4. Run `python3 tester.py p1.ipynb` and work on fixing any issues
 
