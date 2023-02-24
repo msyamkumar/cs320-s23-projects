@@ -307,7 +307,7 @@ def yearly_amounts(self, yearly_payment):
 
 Your job:
 1. Finish the TODOs
-2. Fest your code from the notebook.  For example, you could run this from the notebook:
+2. Test your code from the notebook.  For example, you could run this from the notebook:
 
 ```python
 for amt in loan.yearly_amounts(20000):

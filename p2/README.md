@@ -76,7 +76,7 @@ anybody outside the course.
 
 ## Part 1: Loan Classes
 
-Finish the `Applicant` and `Loan` classes from lab (if you haven't already done so): https://github.com/msyamkumar/cs320-s23-projects/blob/main/labs/lab4.md
+Finish the `Applicant` and `Loan` classes from lab (if you haven't already done so): https://github.com/msyamkumar/cs320-s23-projects/tree/main/labs/loans
 
 We'll now add a `Bank` class to `loans.py`.  A `Bank` can be created like this (create an class with the necessary constructor for this to work):
 
@@ -161,7 +161,7 @@ aspects.
 
 ## Part 2: Binary Search Tree
 
-Finish the `Node` and `BST` classes from lab (if you haven't already done so): https://github.com/msyamkumar/cs320-s23-projects/blob/main/labs/lab5.md
+Finish the `Node` and `BST` classes from lab (if you haven't already done so): https://github.com/msyamkumar/cs320-s23-projects/tree/main/labs/bst-groups
 
 **Note:** if we haven't gotten to BSTs in lecture and lab yet, you can still work on some of the questions in parts 3 and 4, but you should wait to work on the ones related to trees.
 
