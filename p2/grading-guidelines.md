@@ -1,6 +1,6 @@
 # Project 2 Grading Guidelines
 
-You can find details about the grading process [here](https://github.com/msyamkumar/cs320-s23-projects/blob/main/p1/README.md). 
+You can find details about the grading process [here](https://github.com/msyamkumar/cs320-s23-projects/blob/main/p1/grading-guidelines.md). 
 
 **Q6 - Q10:**
 * Hardcoding (e.g., directly displaying final solution): -5 points for each question
