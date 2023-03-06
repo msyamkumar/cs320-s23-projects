@@ -10,7 +10,7 @@ Activities:
 
 4. Practice your [Linux Skills](./linux-skills)
 
-5. Install Selenium and Chromium by following directions in Part 3 of [P3](../p3/README.md)
+5. Install Selenium and Chromium by following directions in Part 3 of [P3](../p3/README.md#part-3-web-crawling-websearcher)
 
 6. Complete the [Exception Treasure Hunt](./bug-hunt)
 
