@@ -121,7 +121,7 @@ reading now, are sometimes ambiguous (sorry!), but test cases tell you
 what is expected from your code with complete precision.
 
 It's often useful to copy/paste code snippets from `tester.py` to your
-`debug.ipynb` when your debugging an issue too.
+`debug.ipynb` when you are debugging an issue too.
 
 ## Part 3: Web Crawling (`WebSearcher`)
 
