@@ -2,7 +2,7 @@
 
 ## Corrections/Clarifications
 
-* none yet
+* Correction: Added lab 6 link (Meena, Mar 7th 1:30 PM).
 
 ## Overview
 
@@ -45,7 +45,7 @@ anybody outside the course.
 
 ## Part 1: Base Class `GraphSearcher` and DFS on Matrices (`MatrixSearcher`)
 
-Complete scrape.py from lab exercises if you haven't already done so: todo lab6 link
+Complete scrape.py from lab exercises if you haven't already done so: [Lab 6](https://github.com/msyamkumar/cs320-s23-projects/tree/main/labs/dfs-class)
 
 ## Part 2: BFS on Matrix (`MatrixSearcher`) and Files (`FileSearcher` )
 
@@ -121,7 +121,7 @@ reading now, are sometimes ambiguous (sorry!), but test cases tell you
 what is expected from your code with complete precision.
 
 It's often useful to copy/paste code snippets from `tester.py` to your
-`debug.ipynb` when your debugging an issue too.
+`debug.ipynb` when you are debugging an issue too.
 
 ## Part 3: Web Crawling (`WebSearcher`)
 
