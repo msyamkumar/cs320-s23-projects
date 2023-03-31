@@ -279,14 +279,7 @@ import re
 re.findall(r"????", html)
 ```
 
-You might have some extra matches like `0470-16-00` that are clearly
-not dates.  Add some additional filtering so that you only count
-4-digit numbers as years if they start as 19XX or 20XX.  
-Similarly, add additional filtering for example like `2044-16-00`, so that 
-you only only count 2-digit numbers as months if they are within 01 and 12. 
-You could do this in the regular expression itself, or in some 
-additional Python code that loops over the results of the regular 
-expression.
+You might have some extra matches like `0470-16-00` that are clearly not dates.  Add some additional filtering so that you only count 4-digit numbers as years if they start as 19XX or 20XX.  Similarly, add additional filtering for example like `2044-16-00`, so that you only only count 2-digit numbers as months if they are within 01 and 12. You could do this in the regular expression itself, or in some additional Python code that loops over the results of the regular expression.
 
 ### Exercise 2: Standard Industrial Classification (SIC) codes
 
@@ -378,7 +371,7 @@ in the practices.  Fill in the missing parts and add additional lines
 as needed.  Much of the code from the practice exercises will be
 useful here.
 
-* `dates` should be a list of dates in the `YYYY-MM-DD` format that appear in the HTML (only count years starting as 19XX or 20XX). 
+* `dates` should be a list of dates in the `YYYY-MM-DD` format that appear in the HTML (only count years starting as 19XX or 20XX with reasonable month and date). 
 * `sic` should be an `int` indicating the Standard Industrial Classification.  It should be `None` if this doesn't appear.
 * `addresses` should be a list of addresses found in the HTML.  Each address will contain the address lines separated by newlines, but otherwise there shouldn't be unnecessary whitespace.(i.e. `['437 MADISON AVENUE\n38TH FLOOR\nNEW YORK NY 10022','155 NORTH WACKER DRIVE\nSUITE 4600\nCHICAGO IL 60606']` note this is just an example **not** the answer.) 
 * `state()` should loop over the addresses.  If it finds one that contains two capital letters followed by 5 digits (for example, `WI 53706`), it should return what appears to be a state abbreviation (for example `WI`).  You don't need to check that the abbreviation is a valid state.  If nothing that looks like a state abbreviation appears, return `None`. Note: It must be exactly 2 capital letters and 5 digits, for example, you can't get `OX 12345` in `BOX 12345`.
