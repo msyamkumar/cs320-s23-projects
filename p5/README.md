@@ -1,7 +1,7 @@
 # P5: EDGAR Web Logs
 
 ## Corrections/Clarifications
-* none yet
+* fixed incorrect 00 date
 
 ## Overview
 
