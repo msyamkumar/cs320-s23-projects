@@ -6,6 +6,7 @@
 * [p3](./p3)
 * [p4](./p4)
 * [p5](./p5)
+* [p6](./p6)
 
 ## Labs 
 * [lab 2](./labs/lab2.md)
@@ -17,3 +18,4 @@
 * [lab 9](./labs/lab9.md)
 * [lab 10](./labs/lab10.md)
 * [lab 11](./labs/lab11.md)
+* [lab 12](./labs/lab12.md)
