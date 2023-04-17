@@ -1,7 +1,7 @@
 # P5: EDGAR Web Logs
 
 ## Corrections/Clarifications
-* fixed incorrect 00 date (Yiyin, Apr 5). Please do a "git pull" to obtain the updated tester. 
+* fixed incorrect 00 date (Yiyin, Apr 5). Please do a `git pull` to obtain the updated tester. 
 
 ## Overview
 
