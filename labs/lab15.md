@@ -8,7 +8,7 @@ Activities:
 
 3. Practice drawing [decision boundaries](./decision-boundaries)
 
-4. Practice [confusion matrices, precision, and recall](https://github.com/msyamkumar/cs320-lecture-notes/tree/main/lec_37_Clustering_1)
+4. Practice [confusion matrices, precision, and recall](https://github.com/msyamkumar/cs320-lecture-notes/blob/main/lec_37_Clustering_1/practice.ipynb)
 
 5. Continue working on [P6](../p6) or [P7](../p7)
 
